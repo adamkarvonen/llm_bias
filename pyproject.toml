@@ -30,7 +30,7 @@ dependencies = [
     "transformers",
     "wheel>=0.45.1",
     "xformers",
-    "vllm",
+    "vllm>0.8.0",
     "beartype",
     "lm_eval==0.4.8"
 ]

@@ -9,7 +9,13 @@ We evaluate and mitigate race/gender hiring bias in LLMs. The code supports both
 Create and activate a virtual environment, then:
 
 ```bash
+# Flexible install
 pip install -e .
+
+# OR for reproducible install
+pip install -r requirements.txt
+pip install -e .
+
 python data_setup.py
 ```
 
@@ -22,6 +28,12 @@ To evaluate bias on local models:
 ```bash
 python mypkg/main_paper_dataset.py --config configs/base_experiment.yaml
 ```
+
+By default, this runs 4 models, 5 anti-bias prompts, and 3 job descriptions, so 60 combinations total. To reduce it, edit e.g. `model_names_to_iterate` in the config file.
+
+Running a local experiment on one model / anti-bias prompt / job_description combination takes approximately 2 minutes for Mistral 24B on an H100.
+
+Running Openrouter experiments will cost around $2 per combination for Claude 4 Sonnet in June 2025.
 
 Other experiment configurations:
 - `base_experiment_intervention.yaml` - Run bias interventions on local models
