@@ -1,0 +1,95 @@
+resume_dataset_path: "data/resume/selected_cats_resumes.csv"
+
+inference_mode: gpu_forward_pass     # REQUIRED (e.g. gpu_forward_pass, gpu_inference, perform_ablations, …)
+# inference_mode: perform_ablations
+# inference_mode: projection_ablations
+
+random_seed: 42
+
+model_name: ""
+
+anti_bias_statement_file: ""
+job_description_file: ""
+system_prompt_filename: "yes_no.txt"
+anti_bias_statement_folder: "anti_bias_statements"
+job_description_folder: "job_descriptions"
+
+email_domain: "gmail"
+
+industry: "INFORMATION-TECHNOLOGY"
+anthropic_dataset: false
+downsample: 150
+no_names: false
+college_name_only: false
+# college_name_only: true
+
+# Ablation-only parameters
+scale: 1000.0
+bias_type: "N/A"
+
+use_mean_diff: true
+# use_mean_diff: false
+probe_training_weight_decay: 0.00
+probe_training_early_stopping_patience: 50
+probe_training_max_iter: 500
+probe_training_batch_size: 16000
+probe_training_begin_layer_percent: 0
+probe_training_dataset_name: "anthropic"
+# probe_training_dataset_name: "resumes"
+probe_training_overwrite_previous: false
+
+
+orthogonalize_model: false
+# orthogonalize_model: true
+
+model_names_to_iterate:
+  # - "google/gemma-2-2b-it"
+  # - "mistralai/Ministral-8B-Instruct-2410"
+  - "mistralai/Mistral-Small-24B-Instruct-2501"
+  - "google/gemma-2-27b-it"
+  - "google/gemma-3-27b-it"
+  - "google/gemma-3-12b-it"
+  
+
+anti_bias_statement_files_to_iterate:
+- "v0.txt"
+- "v1.txt"
+- "v2.txt"
+- "v3.txt"
+- "v4.txt"
+# - "biased.txt"
+
+job_description_files_to_iterate:
+  - "meta_job_description.txt"
+  # - "meta_location_only.txt"
+  - "base_description.txt"
+  # - "gm_job_description.txt"
+
+scales_to_iterate:
+  - 1000.0
+
+bias_types_to_iterate:
+  # - "all"
+  - "political_orientation"
+  # - "gender"
+
+
+    # model_names = [
+    #             "google/gemma-2-2b-it",
+    #             # "google/gemma-2-27b-it",
+    #             # "google/gemma-2-9b-it",
+    #             # "mistralai/Ministral-8B-Instruct-2410",
+    #             # "mistralai/Mistral-Small-24B-Instruct-2501",
+    #             # "deepseek/deepseek-r1",
+    #             # "openai/gpt-4o-2024-08-06",
+    #             # "deepseek/deepseek-r1-distill-llama-70b"
+    #             # "openai/o1-mini-2024-09-12",
+    #             # "openai/o1-mini",
+    #             # "openai/o1"
+    #             # "x-ai/grok-3-mini-beta"
+    #             # "qwen/qwq-32b",
+    #             # "anthropic/claude-3.7-sonnet"
+    #             # "anthropic/claude-3.7-sonnet:thinking",
+    #             # "qwen/qwen2.5-32b-instruct",
+    #             # "openai/gpt-4o-mini",
+    #         ]

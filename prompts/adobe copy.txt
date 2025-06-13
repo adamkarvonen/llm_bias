@@ -1,0 +1,44 @@
+Introduction
+System Administrators are the gatekeepers to the many systems that run our company and our clients. As a System Admin with IBM, you will have the opportunity to provide high-value IT services and leverage our leading-edge technology portfolio in our global network. Your work has a direct impact on the day-to-day productivity of our business by ensuring integrity of, and access to, our most important resource: data.
+
+Your role and responsibilities
+Are you interested in pursuing a career in Linux systems administration/software development? Have you heard about agile development, but want to learn more about how it ‘works’?  Are you someone that has a foundational understanding of development, programming concepts, or Systems Administration and want to take a less traditional path to achieve it?
+
+ 
+
+ 
+
+What is an Apprenticeship?
+
+IBM Apprenticeship Program, which lasts approximately 12 months, is an official registered apprenticeship recognized by the Department of Labor (DOL). Every graduate of a Registered Apprenticeship program receives a nationally-recognized credential from the DOL.
+
+ 
+
+During the apprenticeship duration, you will be required to complete specific learning hours and on the job training that has been outlined to ensure you are developing the skills and competencies essential to the role. You will be able to learn and grow at your own pace, but we expect most apprentices will complete their learning within 12 months. Once you graduate and receive your certificate from our apprentice program, you will be eligible to apply to available full-time roles at IBM.
+
+
+
+
+
+Who you Are
+
+An apprenticeship is about learning. We’re seeking candidates who have the following requirements, but we know you’re just getting your career started, and we’re committed to helping you learn and grow. If you’ve had some experience with coding or development in the past, you’re exactly the type of candidate we’re looking for….
+
+•    Drive and eagerness to learn
+
+•    Strong problem solving and communication skills
+
+•    Able to work independently and take initiative, as well as work collaboratively and contribute to an agile team environment
+
+•    Some knowledge or experience in ONE or more of the following:
+
+•    Java, JavaScript, PHP, C#, Objective-C, C/C++, Python, Ruby and/or functional languages (Haskell, Scala, F#, Clojure)   •    Design Thinking•    Agile principles                •    Container development using tools such as Docker or Vagrant  under Linux•    DevOps automation, and the development toolchain (e.g. Travis, Jenkins, Junit, automated test tools)•    Set up and Administration of X86 systems.•    Some exposure to Hypervisors such as VMWARE, XEN.•    Experience with a modern Source Code repository system such as GIT
+
+
+What’s the Experience?  
+
+As an apprentice, you'll join with other apprentices in a local cohort. You'll go through your first few weeks together, learning about IBM and the skills you'll be attaining throughout your apprenticeship. Then, you'll work with your managers and mentors to progress through your personal skills roadmap, learning and demonstrating new knowledge and competencies through hands-on application with your project teams. You'll complete milestones along the way, earning digital credentials to validate your skills, and will come back together with other apprentices to participate in on-going training and development focused on your professional and technical skills.
+
+ 
+
+As a Linux Administrator Apprentice at IBM, you’ll work as part of a larger team of experienced developers and mentors in an interactive, collaborative environment. You’ll learn the fundamentals of development, software design, and testing, agile principles, Linux System Administration, Source Control and Build for Linux, DevOps and continuous delivery. You will also learn how to resolve IBM customer issues, debug customer problems and environments, gain a detailed knowledge of Virtual Environments, and will build the skills to grow your career as a Developer or Administrator. Best of all, you are a contributing member of your team, putting forward ideas, taking on responsibilities and making choices about how you get the job done just like any other IBMer.

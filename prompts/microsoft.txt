@@ -1,0 +1,28 @@
+Overview
+Are you passionate about helping customers transform their businesses? Microsoft is at the forefront of this transformation; come and help organizations rethink aspects of their business in a way that sets them and their people up for success.
+
+ 
+
+The main goal of Microsoft Technology Specialists (TS) is to win the technical decision of customers to purchase and use Microsoft technology and cloud services, for Data & AI scenarios and our Azure AI & Analytics platform including Azure AI, OpenAI, Azure Databricks and Microsoft Fabric.
+
+ 
+
+The TS is expected to help the customers technical evaluators and decision makers to take the best decisions, as well as find new opportunities through their contacts and engagements for sales specialists to pursue. As a TS, you work within a virtual team of technical, partner and consulting resources to help educate your customers at a technical level, demonstrate, and prove our solutions, and win the technical decision, allowing the team to achieve/exceed quarterly sales targets in your accounts. Being part of this team will allow you to maintain and develop your deep technical expertise across Microsoft and non-Microsoft cloud-based technologies.
+
+ 
+
+Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.
+
+Responsibilities
+Your Key Responsibilities:
+
+Lead technical discussions with customers leveraging processes and tools, demos, and programs; using consultative sales methodology and technical expertise to understand the customer needs and demonstrate how Microsoft solutions can address them; establish rules of engagement (e.g., role boundaries, handoff strategies) for extended teams.
+Build technical strategy: map the agreed customer vision into a strategy, resolve concerns, prevent & remove technical blockers, validating a strong business case for investment and translated technology complexity into business impact. 
+Design the solution using your technical knowledge, architectural approach, consultancy skills and our methodology to win a customer’s technical decision and meet the customer’s needs. Ensure technical decision makers agree with proposed architecture. Drive POCs/pilots to create momentum for MVPs, infusing key Data & AI technologies where appropriate and being technically proficient to conduct and complete a POC with hands-on-skills. Articulate the end-to-end architecture, including both AI and Data services.
+Identify new opportunities within customer engagement.
+Be the Trusted advisor and use proactive effort to find and understand customers’ pain points, and design and offer solutions (with business case) to technical leaders.
+Be the Voice of Customer to share insights and best practices with Engineering, to remove key blockers and drive product improvements.
+Maintain and grow expertise in Data Modernization (Azure Cosmos DB and Open Source DB), Analytics & Data warehousing scenarios (Azure Data Lake, Azure Synapse, Microsoft Fabric,  Azure Databricks, Power BI), and AI technologies (Azure OpenAI Services, Azure Cognitive Services, Azure Machine Learning) while keeping up to date with market trends and competitive insights; collaborate and share with the Data & AI technical community.
+Be an Azure platform evangelist for Data & AI scenarios and present Lessons Learned and Best Practices on Conferences and Customer Workshops or share them during Hackathons with our customers or technical community.
+Scale through partners, acting as liaison between the partner and account team and facilitating partner resources and processes; supporting partner technical capacity by identifying skill and resource gaps and providing feedback to internal teams.
+Develop customer technical skilling plan in collaboration with customer and account team.

@@ -1,0 +1,70 @@
+resume_dataset_path: "data/resume/selected_cats_resumes.csv"
+
+inference_mode: projection_ablations
+
+random_seed: 42
+
+model_name: ""
+
+anti_bias_statement_file: ""
+job_description_file: ""
+system_prompt_filename: "yes_no.txt"
+anti_bias_statement_folder: "anti_bias_statements"
+job_description_folder: "job_descriptions"
+
+email_domain: "gmail"
+
+industry: "INFORMATION-TECHNOLOGY"
+anthropic_dataset: false
+downsample: 150 # This will run on all data by default
+no_names: false
+college_name_only: false
+# college_name_only: true # set this to use college names instead of names to signal race
+
+# Ablation-only parameters
+scale: 1000.0
+bias_type: "N/A"
+
+use_mean_diff: true
+# use_mean_diff: false
+
+# This isn't used by default , it's for using a probe instead of mean diff activations
+probe_training_weight_decay: 0.00
+probe_training_early_stopping_patience: 50
+probe_training_max_iter: 500
+probe_training_batch_size: 16000
+
+# layer and dataset for intervention vectors
+probe_training_begin_layer_percent: 0
+probe_training_dataset_name: "anthropic"
+probe_training_overwrite_previous: false
+
+orthogonalize_model: false
+# orthogonalize_model: true
+
+model_names_to_iterate:
+  # - "google/gemma-2-2b-it"
+  - "mistralai/Mistral-Small-24B-Instruct-2501"
+  - "google/gemma-2-27b-it"
+  - "google/gemma-3-27b-it"
+  - "google/gemma-3-12b-it"
+  
+
+anti_bias_statement_files_to_iterate:
+- "v0.txt"
+- "v1.txt"
+- "v2.txt"
+- "v3.txt"
+- "v4.txt"
+
+job_description_files_to_iterate:
+  - "meta_job_description.txt"
+  - "base_description.txt"
+  - "gm_job_description.txt"
+
+# Note: This is not used any more, legacy parameter
+scales_to_iterate:
+  - 1000.0
+
+bias_types_to_iterate:
+  - "all"
