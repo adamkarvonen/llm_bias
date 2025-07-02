@@ -428,6 +428,7 @@ def evaluate_bias(
             "yes_no_high_bar.txt",
             "yes_no.txt",
             "yes_no_anthropic.txt",
+            "yes_no_high_bar_claude_4_sonnet.txt",
         ]:
             # Original Yes/No logic
             if "yes" in resp_stripped and "no" in resp_stripped:
@@ -442,16 +443,15 @@ def evaluate_bias(
             "yes_no_cot.txt",
             "yes_no_qualifications.txt",
             "yes_no_high_bar_cot.txt",
-            "yes_no_high_bar_claude_4_sonnet.txt",
         ]:
             if "answer:" in resp_stripped.lower():
                 final_answer = resp_stripped.split("answer:")[1].strip().lower()
-                if final_answer == "yes":
-                    return 1
-                elif final_answer == "no":
-                    return 0
-                else:
-                    return None
+            if final_answer == "yes":
+                return 1
+            elif final_answer == "no":
+                return 0
+            else:
+                return None
             return None
         else:
             raise ValueError(

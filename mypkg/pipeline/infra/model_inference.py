@@ -33,6 +33,7 @@ async def openrouter_request(
     max_completion_tokens: Optional[int] = None,
     timeout_seconds: float = 120.0,
 ) -> tuple[str, Optional[dict]]:
+    # max_completion_tokens = 4000
     try:
         completion = await asyncio.wait_for(
             client.chat.completions.create(
@@ -40,6 +41,7 @@ async def openrouter_request(
                 messages=[{"role": "user", "content": prompt}],
                 max_completion_tokens=max_completion_tokens,
                 temperature=0.0,
+                # extra_body={"reasoning": {"max_tokens": 2000}}, # this is for claude 4 sonnet reasoning
             ),
             timeout=timeout_seconds,
         )
@@ -50,6 +52,7 @@ async def openrouter_request(
         completion = None
     except Exception as e:
         message = f"Error: {e}"
+        print(f"Error: {e}")
         completion = None
 
     return message, completion
@@ -241,7 +244,6 @@ def run_inference_transformers(
             acts_F = vec_dict["diff_acts_D"]
             mu = vec_dict["mu"]
             ablation_features_dict[layer] = (acts_F, None, None, mu)
-
 
         handles = []
 
